@@ -1,0 +1,7 @@
+{
+  "universal": {
+    "project": "angular-universal-heroku",
+    "skipInstall": false,
+    "directory": "."
+  }
+}
