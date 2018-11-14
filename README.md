@@ -2,6 +2,8 @@
 
 ![angular-universal](https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png)
 
+**This is a starting point for an Angular Universal application that can then be published correctly to heroku with working SSR(server side rendering)**
+
 This starter was created by creating a new angular application with `@angular/cli@7.0.0` and combining the techniques shown in these two articles.
 
 [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947)
@@ -10,27 +12,25 @@ This starter was created by creating a new angular application with `@angular/cl
 
 and some additional configuration to get it all working on Angular 7
 
+If you're looking for the Angular Universal repo go to [angular/universal](https://github.com/angular/universal)
+
 ## Getting Started
 
-// todo
+Download the project files and install the dependencies. this project is set up with `yarn`, you can switch to `npm` but make sure you delete the `yarn.lock` file otherwise heroku will throw an error
 
-## Installation
-
-// todo
+```
+$ git clone https://github.com/Alex61NN5/angular-universal-heroku-starter.git
+$ cd angular-universal-heroku-starter
+```
+then run `yarn` or `npm install` depending on which package manager you choose.
 
 ### Development
 
-// todo
+To run this project for development you can use the command `ng serve` or `npm start`
 
-run with ng serve
+### Test Production/Server Side Rendering
 
-### Test Production
-// todo
-
-
-## Server Side Rendering
-// todo
-
+`npm build:ssr` - Compiles your application and spins up a Node Express to serve your Universal application on http://localhost:4000
 
 ## Heroku
 
