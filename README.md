@@ -1,10 +1,12 @@
 # Angular 7 Universal Heroku Starter
 
+![angular-badge](https://img.shields.io/badge/Angular-7.0.5-red.svg) [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/commit-activity) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/contributors/) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/issues?q=is%3Aissue+is%3Aclosed)
+
 ![angular-universal](https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png)
 
 **This is a starting point for an Angular Universal application that can then be published correctly to heroku with working SSR(server side rendering)**
 
-This starter was created by creating a new angular application with `@angular/cli@7.0.0` and combining the techniques shown in these two articles.
+This starter was created by creating a new angular application with `@angular/cli@7.0.5` and combining the techniques shown in these two articles.
 
 [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947)
 
