@@ -40,7 +40,15 @@ run with ng serve
 
 #### To deploy to heroku
 
-![carbon 4](https://user-images.githubusercontent.com/20350641/48462923-56f77e00-e82e-11e8-89be-2e6e53148473.png)
+```
+$ git init
+$ heroku login
+$ heroku create
+$ git add .
+$ git commit -m "initial commit"
+$ git push heroku master
+$ heroku open
+```
 
 
 ## Universal "Gotchas"
