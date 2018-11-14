@@ -33,7 +33,14 @@ run with ng serve
 
 
 ## Heroku
-// todo
+
+**IMPORTANT** For the heroku deploy to work correctly you must change this line in your package.json to match the new name of the project
+
+`"build:client-and-server-bundles": "ng build --prod && ng run <YOUR-PROJECT-NAME>:server"`
+
+#### To deploy to heroku
+
+![carbon 4](https://user-images.githubusercontent.com/20350641/48462923-56f77e00-e82e-11e8-89be-2e6e53148473.png)
 
 
 ## Universal "Gotchas"
