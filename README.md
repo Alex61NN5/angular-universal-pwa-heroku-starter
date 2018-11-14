@@ -54,3 +54,8 @@ $ heroku open
 ## Universal "Gotchas"
 
 https://github.com/angular/universal/blob/master/docs/gotchas.md
+
+### Licence
+<hr>
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
