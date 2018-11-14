@@ -1,5 +1,7 @@
 # Angular 7 Universal Heroku Starter
 
+![angular-universal](https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png)
+
 This starter was created by creating a new angular application with `@angular/cli@7.0.0` and combining the techniques shown in these two articles.
 
 [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947)
