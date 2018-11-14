@@ -50,10 +50,13 @@ $ git push heroku master
 $ heroku open
 ```
 
-
 ## Universal "Gotchas"
 
 https://github.com/angular/universal/blob/master/docs/gotchas.md
+
+### Contribution
+
+If you would like to contribute to this repo, please fork and then create a pull request.
 
 ### Licence
 <hr>
