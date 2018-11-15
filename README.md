@@ -30,6 +30,20 @@ then run `yarn` or `npm install` depending on which package manager you choose.
 
 To run this project for development you can use the command `ng serve` or `npm start`
 
+This project uses [husky](https://github.com/typicode/husky) to implement git-hooks and [commitLint](https://github.com/marionebl/commitlint) to check commit messages. If you do not wish to use these features remove this from your package.json
+
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "ng lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+```
+remove the `commitlint.config.js` file from the src directory and then run 
+
+`yarn remove husky @commitlint/cli @commitlint/config-angular`
+
 ### Test Production/Server Side Rendering
 
 `npm build:ssr` - Compiles your application and spins up a Node Express to serve your Universal application on http://localhost:4000
