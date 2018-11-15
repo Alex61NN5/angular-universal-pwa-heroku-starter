@@ -9,11 +9,9 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
-  imports:[
- CommonModule,
-NgtUniversalModule,
- 
-    
+  imports: [
+    CommonModule,
+    NgtUniversalModule,
   ],
   providers: [],
 })
