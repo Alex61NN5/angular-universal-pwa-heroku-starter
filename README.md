@@ -18,13 +18,31 @@ If you're looking for the Angular Universal repo go to [angular/universal](https
 
 ## Getting Started
 
-Download the project files and install the dependencies. this project is set up with `yarn`, you can switch to `npm` but make sure you delete the `yarn.lock` file otherwise heroku will throw an error
+Download the project files and install the dependencies. this project is set up with `yarn`
 
 ```
 $ git clone https://github.com/Alex61NN5/angular-universal-heroku-starter.git
 $ cd angular-universal-heroku-starter
 ```
-then run `yarn` or `npm install` depending on which package manager you choose.
+then run `yarn`
+
+The `package.json` has an engines section that specifies the node and yarn version to use for the heroku build
+
+```
+"engines": {
+    "node": "9.2.1",
+    "yarn": "1.5.1"
+},
+```
+
+If you wish to use `npm` instead make sure you delete the `yarn.lock` file from the project and then change the `engines` to use the version of `npm` you are running to find this out run `npm -v` an example of what this would look like is 
+
+```
+"engines": {
+    "node": "9.2.1",
+    "npm": "6.4.1"
+},
+```
 
 ### Development
 
@@ -33,12 +51,12 @@ To run this project for development you can use the command `ng serve` or `npm s
 This project uses [husky](https://github.com/typicode/husky) to implement git-hooks and [commitLint](https://github.com/marionebl/commitlint) to check commit messages. If you do not wish to use these features remove this from your package.json
 
 ```
-  "husky": {
-    "hooks": {
-      "pre-commit": "ng lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
+"husky": {
+  "hooks": {
+    "pre-commit": "ng lint",
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+},
 ```
 remove the `commitlint.config.js` file from the src directory and then run 
 
