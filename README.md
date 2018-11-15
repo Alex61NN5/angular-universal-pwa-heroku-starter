@@ -58,7 +58,7 @@ https://github.com/angular/universal/blob/master/docs/gotchas.md
 
 ### Contribution
 
-If you would like to contribute to this repo, please fork and then create a pull request.
+Before contributing please read the [contribution guidelines](https://github.com/Alex61NN5/angular-universal-heroku-starter/blob/master/CONTRIBUTION.md)
 
 ### Licence
 <hr>
