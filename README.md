@@ -28,6 +28,13 @@ then run `yarn`
 
 The `package.json` has an engines section that specifies the node and yarn version to use for the heroku build
 
+In your terminal run the following commands
+```
+$ node -v
+$ yarn -v // or npm -v
+```
+now either update your node and yarn/npm to match the ones found in the package.json or change the engines to match your versions otherwise when you try to install packages it will throw an error
+
 ```
 "engines": {
     "node": "9.2.1",
