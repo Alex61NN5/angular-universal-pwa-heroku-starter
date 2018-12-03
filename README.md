@@ -71,7 +71,7 @@ remove the `commitlint.config.js` file from the src directory and then run
 
 ### Test Production/Server Side Rendering
 
-`npm build:ssr` - Compiles your application and spins up a Node Express to serve your Universal application on http://localhost:4000
+`npm run build:ssr` - Compiles your application and spins up a Node Express to serve your Universal application on http://localhost:4000
 
 ## Heroku
 
