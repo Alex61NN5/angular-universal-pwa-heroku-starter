@@ -97,7 +97,7 @@ https://github.com/angular/universal/blob/master/docs/gotchas.md
 
 ### Contribution
 
-Before contributing please read the [contribution guidelines](https://github.com/Alex61NN5/angular-universal-heroku-starter/blob/master/CONTRIBUTION.md)
+Before contributing please read the [contribution guidelines](https://github.com/Alex61NN5/angular-universal-heroku-starter/blob/master/CONTRIBUTING.md)
 
 ### Licence
 <hr>
