@@ -4,6 +4,9 @@
 
 ![angular-universal](https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png)
 
+**DEMO SITE**
+https://angular-heroku-starter.herokuapp.com/
+
 **This is a starting point for an Angular Universal application that can then be published correctly to heroku with working SSR(server side rendering)**
 
 This starter was created by creating a new angular application with `@angular/cli@7.0.5` and combining the techniques shown in these two articles.
