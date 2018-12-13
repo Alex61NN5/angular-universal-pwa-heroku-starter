@@ -54,6 +54,9 @@ If you wish to use `npm` instead make sure you delete the `yarn.lock` file from 
 },
 ```
 
+You will probably want to change the project name so what you will need to do is do a find and replace of `angular-universal-heroku-starter` and change everything to your new project name. Most of this stuff will be in the angular.json
+
+
 ### Development
 
 To run this project for development you can use the command `ng serve` or `npm start`
