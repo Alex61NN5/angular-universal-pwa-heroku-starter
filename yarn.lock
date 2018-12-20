@@ -539,9 +539,9 @@
   version "2.8.11"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.11.tgz#0b5eba9e02616736b1a189112eacc163c3773b7b"
 
-"@types/jasmine@2.8.14":
-  version "2.8.14"
-  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.14.tgz#42a87032418b7d70f427d1df16a9921fca28d8c7"
+"@types/jasmine@3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.4.tgz#492cc70364f6dee047887b4fa2135bedd41fb143"
 
 "@types/jasminewd2@2.0.6":
   version "2.0.6"
