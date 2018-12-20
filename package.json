@@ -51,7 +51,7 @@
     "rxjs": "6.3.3",
     "ts-loader": "4.2.0",
     "webpack": "4.0.0",
-    "webpack-cli": "2.1.5",
+    "webpack-cli": "3.1.2",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
