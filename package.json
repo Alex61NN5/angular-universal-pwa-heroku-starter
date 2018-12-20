@@ -2,7 +2,7 @@
   "name": "angular-universal-heroku",
   "version": "0.0.0",
   "engines": {
-    "node": "9.2.1",
+    "node": "9.11.2",
     "yarn": "1.5.1"
   },
   "scripts": {
