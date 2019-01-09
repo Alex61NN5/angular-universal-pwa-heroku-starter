@@ -53,7 +53,7 @@ If you wish to use `npm` instead make sure you delete the `yarn.lock` file from 
     "npm": "6.4.1"
 },
 ```
-
+**IMPORTANT**
 You will probably want to change the project name so what you will need to do is do a find and replace of `angular-universal-heroku-starter` and change everything to your new project name. Most of this stuff will be in the angular.json
 
 
