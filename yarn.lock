@@ -99,6 +99,16 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
+"@angular-devkit/core@7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.2.0.tgz#c138be754f17908b773dba7c20fe6f40a080d10b"
+  dependencies:
+    ajv "6.6.2"
+    chokidar "2.0.4"
+    fast-json-stable-stringify "2.0.0"
+    rxjs "6.3.3"
+    source-map "0.7.3"
+
 "@angular-devkit/schematics@7.0.5", "@angular-devkit/schematics@~7.0.0":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.0.5.tgz#527bf0af5352172e92c5473a33bc07af44c77796"
@@ -111,6 +121,13 @@
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.1.4.tgz#d2828fb86b5453395fab12a36779d0fd9fbdadc2"
   dependencies:
     "@angular-devkit/core" "7.1.4"
+    rxjs "6.3.3"
+
+"@angular-devkit/schematics@7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.2.0.tgz#6d51209047bd6a74bcea99fcd0b48fedbbd074d3"
+  dependencies:
+    "@angular-devkit/core" "7.2.0"
     rxjs "6.3.3"
 
 "@angular/animations@7.0.3":
@@ -201,6 +218,16 @@
     domino "^2.1.0"
     tslib "^1.9.0"
     xhr2 "^0.1.4"
+
+"@angular/pwa@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-0.12.0.tgz#1ae44fbe7b5f526a4af9f31ac8e2a30ca47605af"
+  dependencies:
+    "@angular-devkit/core" "7.2.0"
+    "@angular-devkit/schematics" "7.2.0"
+    "@schematics/angular" "7.2.0"
+    parse5-html-rewriting-stream "5.1.0"
+    rxjs "6.3.3"
 
 "@angular/router@7.0.3":
   version "7.0.3"
@@ -510,6 +537,14 @@
     "@angular-devkit/schematics" "7.1.4"
     typescript "3.1.6"
 
+"@schematics/angular@7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.2.0.tgz#850e403a0c37ceae994d7240e84be0dac818d190"
+  dependencies:
+    "@angular-devkit/core" "7.2.0"
+    "@angular-devkit/schematics" "7.2.0"
+    typescript "3.2.2"
+
 "@schematics/angular@~7.0.0":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.0.5.tgz#96a2fc65113e707548ff732583297e40ab96350d"
@@ -765,6 +800,15 @@ ajv-keywords@^3.1.0:
 ajv@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.3.tgz#71a569d189ecf4f4f321224fecb166f071dd90f9"
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@6.6.2:
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.6.2.tgz#caceccf474bf3fc3ce3b147443711a24063cc30d"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -6299,9 +6343,26 @@ parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
 
+parse5-html-rewriting-stream@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5-html-rewriting-stream/-/parse5-html-rewriting-stream-5.1.0.tgz#63f92c958764aea8cbe3aa68f2e5895c32068ab8"
+  dependencies:
+    parse5 "^5.1.0"
+    parse5-sax-parser "^5.1.0"
+
+parse5-sax-parser@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5-sax-parser/-/parse5-sax-parser-5.1.0.tgz#ec234d23223a8054a74ff173aa3dc2da74c5bbd9"
+  dependencies:
+    parse5 "^5.1.0"
+
 parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
+
+parse5@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
 
 parseqs@0.0.5:
   version "0.0.5"
@@ -8175,6 +8236,10 @@ typedarray@^0.0.6:
 typescript@3.1.6, "typescript@>=3.1.1 <3.2":
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.1.6.tgz#b6543a83cfc8c2befb3f4c8fba6896f5b0c9be68"
+
+typescript@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.2.tgz#fe8101c46aa123f8353523ebdcf5730c2ae493e5"
 
 uglify-es@^3.3.4:
   version "3.3.9"
