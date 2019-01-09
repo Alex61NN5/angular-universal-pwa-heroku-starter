@@ -1,4 +1,4 @@
-# Angular 7 Universal Heroku Starter
+# Angular 7 Universal Heroku Starter (now a PWA!)
 
 ![angular-badge](https://img.shields.io/badge/Angular-7.0.5-red.svg) [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/commit-activity) ![awesome](https://img.shields.io/badge/awesome-yes-blue.svg) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Alex61NN5/angular-universal-heroku-starter/issues) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/contributors/)
 
@@ -96,6 +96,29 @@ $ git commit -m "initial commit"
 $ git push heroku master
 $ heroku open
 ```
+
+## PWA
+
+This project is now a Progressive Web Application, this was achieved by running `ng add @angular/pwa`.
+
+Some things to keep in mind, 
+1. You will need to update the pwa icons located in the assets folder to match your application
+2. You will need to update your manifest.json to reflect your application for eg.
+
+```
+{
+  "name": "Your application name here",
+  "short_name": "Short name for application",
+  "theme_color": "#1976d2", // Colour Theme
+  "background_color": "#fafafa", // Background colour
+  "display": "standalone", 
+  "scope": "/",
+  "start_url": "/",
+  ...
+```
+3. In the ngsw-config.json file if you plan on having a `sitemap.xml` or `robots.txt` you will need to add them to the resources section
+
+Currently the application is getting a 92 lighthouse score, there are two issues http to https which unfortuantely is unavoidable with heroku, and the `short_name` is too long but you will need to update that anyway which will fix this issue and your score will be closer to 100
 
 ## Universal "Gotchas"
 
