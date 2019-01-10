@@ -19,6 +19,15 @@ and some additional configuration to get it all working on Angular 7
 
 If you're looking for the Angular Universal repo go to [angular/universal](https://github.com/angular/universal)
 
+**Table of contents**
+* [Getting Started](https://github.com/Alex61NN5/angular-universal-heroku-starter#getting-started)
+  * [Development](https://github.com/Alex61NN5/angular-universal-heroku-starter#getting-started)
+* [Heroku](https://github.com/Alex61NN5/angular-universal-heroku-starter#getting-started)
+* [PWA](https://github.com/Alex61NN5/angular-universal-heroku-starter#getting-started)
+* [Universal Gotcha's](https://github.com/Alex61NN5/angular-universal-heroku-starter#universal-gotchas)
+* [Contribution Guidelines](https://github.com/Alex61NN5/angular-universal-heroku-starter/blob/master/CONTRIBUTING.md)
+* [Lincence](https://github.com/Alex61NN5/angular-universal-heroku-starter/blob/master/LICENSE)
+
 ## Getting Started
 
 Download the project files and install the dependencies. this project is set up with `yarn`
