@@ -9,15 +9,9 @@ https://angular-heroku-starter.herokuapp.com/
 
 **This is a starting point for an Angular Universal application that can then be published correctly to heroku with working SSR(server side rendering)**
 
-This starter was created by creating a new angular application with `@angular/cli@7.0.5` and combining the techniques shown in these two articles.
+This starter was created by creating a new angular application with `@angular/cli@7.0.5` and combining the techniques shown in these two articles. [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947) and [enable-angular-universal-for-existing-app](https://medium.com/@mafshin/enable-angular-universal-for-existing-app-3a17694b9177) plus some additional configuration to get it all working on Angular 7
 
-[deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947)
-
-[enable-angular-universal-for-existing-app](https://medium.com/@mafshin/enable-angular-universal-for-existing-app-3a17694b9177)
-
-and some additional configuration to get it all working on Angular 7
-
-If you're looking for the Angular Universal repo go to [angular/universal](https://github.com/angular/universal)
+*If you're looking for the Angular Universal repo go to [angular/universal](https://github.com/angular/universal)
 
 **Table of contents**
 * [Getting Started](https://github.com/Alex61NN5/angular-universal-heroku-starter#getting-started)
