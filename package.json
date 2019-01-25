@@ -60,7 +60,7 @@
     "@angular/cli": "7.1.4",
     "@angular/compiler-cli": "7.0.3",
     "@angular/language-service": "7.0.3",
-    "@types/jasmine": "2.8.14",
+    "@types/jasmine": "2.8.16",
     "@types/jasminewd2": "2.0.6",
     "@types/node": "8.10.39",
     "codelyzer": "4.5.0",
