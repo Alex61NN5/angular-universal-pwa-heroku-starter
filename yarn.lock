@@ -86,16 +86,6 @@
     "@angular-devkit/core" "7.1.4"
     rxjs "6.3.3"
 
-"@angular-devkit/core@7.0.5", "@angular-devkit/core@~7.0.0":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.0.5.tgz#60866c0a2367cea44b436a359ac9be99a138e180"
-  dependencies:
-    ajv "6.5.3"
-    chokidar "2.0.4"
-    fast-json-stable-stringify "2.0.0"
-    rxjs "6.3.3"
-    source-map "0.7.3"
-
 "@angular-devkit/core@7.1.4":
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.1.4.tgz#4d903fd2ecc259b716ae76da19695d03993e583c"
@@ -116,7 +106,7 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/core@7.3.2":
+"@angular-devkit/core@7.3.2", "@angular-devkit/core@^7.0.0":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.2.tgz#67ac2cfcbe47f1e457929c19ab1b04c9e061b2e2"
   dependencies:
@@ -126,13 +116,6 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@7.0.5", "@angular-devkit/schematics@~7.0.0":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.0.5.tgz#527bf0af5352172e92c5473a33bc07af44c77796"
-  dependencies:
-    "@angular-devkit/core" "7.0.5"
-    rxjs "6.3.3"
-
 "@angular-devkit/schematics@7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.2.0.tgz#6d51209047bd6a74bcea99fcd0b48fedbbd074d3"
@@ -140,7 +123,7 @@
     "@angular-devkit/core" "7.2.0"
     rxjs "6.3.3"
 
-"@angular-devkit/schematics@7.3.2":
+"@angular-devkit/schematics@7.3.2", "@angular-devkit/schematics@^7.0.0":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.3.2.tgz#e9d3c1f2128a56f66ea846ce3f80c69d4c3a9ae9"
   dependencies:
@@ -485,40 +468,40 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@ng-toolkit/_utils@1.1.47", "@ng-toolkit/_utils@^1.1.47":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ng-toolkit/_utils/-/_utils-1.1.47.tgz#4272c2944a2f4a6815bd33d0b167c3462ffdb24e"
+"@ng-toolkit/_utils@1.1.51", "@ng-toolkit/_utils@^1.1.51":
+  version "1.1.51"
+  resolved "https://registry.yarnpkg.com/@ng-toolkit/_utils/-/_utils-1.1.51.tgz#a47944125b52e0884aba856dde35ceab6634d543"
   dependencies:
-    "@angular-devkit/core" "~7.0.0"
-    "@angular-devkit/schematics" "~7.0.0"
-    "@schematics/angular" "~7.0.0"
+    "@angular-devkit/core" "^7.0.0"
+    "@angular-devkit/schematics" "^7.0.0"
+    "@schematics/angular" "^7.0.0"
     bugsnag "^2.3.1"
 
-"@ng-toolkit/pwa@1.1.47":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ng-toolkit/pwa/-/pwa-1.1.47.tgz#35f489f45cdd4bc627b3542c9619b8b88f390866"
+"@ng-toolkit/pwa@1.1.51":
+  version "1.1.51"
+  resolved "https://registry.yarnpkg.com/@ng-toolkit/pwa/-/pwa-1.1.51.tgz#ba4e25da91c7cc455a995c02db88380a49b2a41d"
   dependencies:
-    "@ng-toolkit/_utils" "1.1.47"
+    "@ng-toolkit/_utils" "1.1.51"
     bugsnag "^2.4.2"
     tslib "^1.9.0"
 
-"@ng-toolkit/serverless@1.1.47":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ng-toolkit/serverless/-/serverless-1.1.47.tgz#a687b40a1bd1b05cdaa2f15c6b156434d82d53af"
+"@ng-toolkit/serverless@1.1.51":
+  version "1.1.51"
+  resolved "https://registry.yarnpkg.com/@ng-toolkit/serverless/-/serverless-1.1.51.tgz#b9c908bea589e1f47960fb6ea7b93c00f91158ec"
   dependencies:
-    "@angular-devkit/core" "~7.0.0"
-    "@angular-devkit/schematics" "~7.0.0"
-    "@ng-toolkit/_utils" "^1.1.47"
-    "@schematics/angular" "~7.0.0"
+    "@angular-devkit/core" "^7.0.0"
+    "@angular-devkit/schematics" "^7.0.0"
+    "@ng-toolkit/_utils" "^1.1.51"
+    "@schematics/angular" "^7.0.0"
     bugsnag "^2.3.1"
 
-"@ng-toolkit/universal@1.1.47":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@ng-toolkit/universal/-/universal-1.1.47.tgz#20c9de2a1f5bb8ccbfc3a4cce9076ba378c81f8a"
+"@ng-toolkit/universal@1.1.51":
+  version "1.1.51"
+  resolved "https://registry.yarnpkg.com/@ng-toolkit/universal/-/universal-1.1.51.tgz#5eff836de9417486606bf56bc37a532cc92322d7"
   dependencies:
-    "@ng-toolkit/_utils" "1.1.47"
-    "@ng-toolkit/pwa" "1.1.47"
-    "@ng-toolkit/serverless" "1.1.47"
+    "@ng-toolkit/_utils" "1.1.51"
+    "@ng-toolkit/pwa" "1.1.51"
+    "@ng-toolkit/serverless" "1.1.51"
     bugsnag "^2.4.2"
     tslib "^1.9.0"
 
@@ -558,21 +541,13 @@
     "@angular-devkit/schematics" "7.2.0"
     typescript "3.2.2"
 
-"@schematics/angular@7.3.2":
+"@schematics/angular@7.3.2", "@schematics/angular@^7.0.0":
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.3.2.tgz#470f972a9d80ab8af9900e33972bce44aa567718"
   dependencies:
     "@angular-devkit/core" "7.3.2"
     "@angular-devkit/schematics" "7.3.2"
     typescript "3.2.4"
-
-"@schematics/angular@~7.0.0":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.0.5.tgz#96a2fc65113e707548ff732583297e40ab96350d"
-  dependencies:
-    "@angular-devkit/core" "7.0.5"
-    "@angular-devkit/schematics" "7.0.5"
-    typescript "3.1.6"
 
 "@schematics/update@0.13.2":
   version "0.13.2"
