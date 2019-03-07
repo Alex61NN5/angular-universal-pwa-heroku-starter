@@ -43,7 +43,7 @@
     "@commitlint/cli": "7.2.1",
     "@commitlint/config-angular": "7.1.2",
     "@ng-toolkit/universal": "1.1.47",
-    "@nguniversal/express-engine": "7.0.2",
+    "@nguniversal/express-engine": "7.1.1",
     "@nguniversal/module-map-ngfactory-loader": "7.0.2",
     "core-js": "2.5.7",
     "cors": "2.8.5",

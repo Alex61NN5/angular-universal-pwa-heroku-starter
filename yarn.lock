@@ -532,9 +532,9 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
-"@nguniversal/express-engine@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-7.0.2.tgz#f7722828d7ec14951d0c24ad438772daf79583c8"
+"@nguniversal/express-engine@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-7.1.1.tgz#9445ccb374dabdadccc8de98ca8a79b536ae14de"
 
 "@nguniversal/module-map-ngfactory-loader@7.0.2":
   version "7.0.2"
