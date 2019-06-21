@@ -1,8 +1,14 @@
-# Angular 7 Universal Heroku Starter (now a PWA!)
-
-![angular-badge](https://img.shields.io/badge/Angular-7.0.5-red.svg) [![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/commit-activity) ![awesome](https://img.shields.io/badge/awesome-yes-blue.svg) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Alex61NN5/angular-universal-heroku-starter/issues) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Alex61NN5/angular-universal-heroku-starter/graphs/contributors/)
-
-![angular-universal](https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png)
+<h1 align="center">🔥 Angular 7 Universal Heroku Starter (now a PWA!) 🔥</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-7.0.5-red.svg" />
+  <img src="https://img.shields.io/badge/Maintained-yes-green.svg" />
+  <img src="https://img.shields.io/badge/awesome-yes-blue.svg" />
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
+  <img src="https://img.shields.io/github/contributors/Alex61NN5/angular-universal-pwa-heroku-starter.svg" />
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png" />
+</p>
 
 **DEMO SITE**
 https://angular-heroku-starter.herokuapp.com/
