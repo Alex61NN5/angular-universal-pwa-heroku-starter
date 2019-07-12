@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/awesome-yes-blue.svg" />
   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
   <img src="https://img.shields.io/github/contributors/Alex61NN5/angular-universal-pwa-heroku-starter.svg" />
+  <img src="https://img.shields.io/twitter/follow/alexginns.svg?style=social" />
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/20350641/48462006-7ab8c500-e82a-11e8-8f0a-cedf39303957.png" />
