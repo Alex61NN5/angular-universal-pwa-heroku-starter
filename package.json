@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "engines": {
     "node": "9.2.1",
-    "yarn": "1.5.1"
+    "yarn": "1.17.3"
   },
   "scripts": {
     "start:heroku": "node dist/server",
