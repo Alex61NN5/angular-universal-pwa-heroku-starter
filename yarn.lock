@@ -605,9 +605,9 @@
   dependencies:
     "@types/jasmine" "*"
 
-"@types/node@8.10.39":
-  version "8.10.39"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.39.tgz#e7e87ad00364dd7bc485c940926345b8ec1a26ca"
+"@types/node@8.10.50":
+  version "8.10.50"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.50.tgz#f3d68482b1f54b5f4fba8daaac385db12bb6a706"
 
 "@types/node@^6.0.46":
   version "6.14.1"
