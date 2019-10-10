@@ -1,9 +1,6 @@
-<h1 align="center">🔥 Angular 7 Universal Heroku Starter (now a PWA!) 🔥</h1>
+<h1 align="center">🔥 Angular 8 PWA Universal Heroku Starter 🔥</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Angular-7.0.5-red.svg" />
-  <img src="https://img.shields.io/badge/Maintained-yes-green.svg" />
-  <img src="https://img.shields.io/badge/awesome-yes-blue.svg" />
-  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
+  <img src="https://img.shields.io/badge/Angular-8.2.9-red.svg" />
   <img src="https://img.shields.io/github/contributors/Alex61NN5/angular-universal-pwa-heroku-starter.svg" />
   <img src="https://img.shields.io/twitter/follow/alexginns.svg?style=social" />
 </p>
@@ -16,7 +13,7 @@ https://angular-heroku-starter.herokuapp.com/
 
 **This is a starting point for an Angular Universal application that can then be published correctly to heroku with working SSR(server side rendering)**
 
-This starter was created by creating a new angular application with `@angular/cli@7.0.5` and combining the techniques shown in these two articles. [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947) and [enable-angular-universal-for-existing-app](https://medium.com/@mafshin/enable-angular-universal-for-existing-app-3a17694b9177) plus some additional configuration to get it all working on Angular 7
+This starter was created by creating a new angular application with `@angular/cli@8.2.9` and combining the techniques shown in these two articles. [deploying-an-angular-universal-app-to-heroku](https://medium.com/augie-gardner/deploying-an-angular-universal-app-to-heroku-eca2b7966947) and [enable-angular-universal-for-existing-app](https://medium.com/@mafshin/enable-angular-universal-for-existing-app-3a17694b9177) plus some additional configuration to get it all working on Angular 8
 
 *If you're looking for the Angular Universal repo go to [angular/universal](https://github.com/angular/universal)
 
