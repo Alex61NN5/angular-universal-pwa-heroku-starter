@@ -47,7 +47,7 @@ now either update your node and yarn/npm to match the ones found in the package.
 
 ```
 "engines": {
-    "node": "9.2.1",
+    "node": "10.16.3",
     "yarn": "1.5.1"
 },
 ```
@@ -56,7 +56,7 @@ If you wish to use `npm` instead make sure you delete the `yarn.lock` file from 
 
 ```
 "engines": {
-    "node": "9.2.1",
+    "node": "10.16.3",
     "npm": "6.4.1"
 },
 ```
